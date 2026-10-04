@@ -1,0 +1,29 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# Local prototype archive
+/_legacy-static/
+
+# Temporary files and caches
+__pycache__/
+*.py[cod]
+*.log
+*.err
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
